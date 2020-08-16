@@ -19,7 +19,7 @@ img {
 .icon {
   fill: current color;
   display: inline-block;
-  font-size: 100px;
+  font-size: inherit;
   height: 1em
   overflow: visible;
 }
@@ -70,5 +70,39 @@ img.avatar {
 
 .link-item svg {
   margin-right: 6px;
+}
+
+.job {
+  padding-bottom: 24px
+  margin-bottom: 24px
+  border-bottom: 1px solid lightgrey
+}
+
+.job: last-child {
+  border-bottom: none;
+}
+
+.job-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.job-company {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.skills-containter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-bottom: 24px;
+}
+
+.skills-container ul {
+  margin-left: 20px;
+  list-style-type: disc;
 }
 
