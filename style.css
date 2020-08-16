@@ -19,7 +19,7 @@ img {
 .icon {
   fill: current color;
   display: inline-block;
-  font-size: inherit;
+  font-size: 100px;
   height: 1em
   overflow: visible;
 }
