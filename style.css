@@ -58,32 +58,19 @@ a {
 }
 
 .cell-4 {
-  background: #bcd3e0;
-  grid-area: left;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 2fr 1fr 1fr;
-  grid-column-gap: 1rem;
-}
-
-.cell-4 .cell {
-  background-color: #bcd3e0;
-}
-
-.cell-8 {
   background: #bcd3e0
   grid-area: main;
   display: grid;
   grid-template-columns: 3fr;
-  grid-template-rows: 2fr 1fr 1fr;
+  grid-template-rows: 3fr;
   grid-column-gap: 1rem;
 }
 
-.cell-9 .cell {
+.cell-4 .cell {
   background-color: #bcd3e0
 }
 
-.cell-12 {
+.cell-8 {
   background: #bcd3e0;
   grid-area: footer;
 }
