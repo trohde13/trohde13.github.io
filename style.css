@@ -16,7 +16,7 @@ p{
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   color: #232b2e;
 }
@@ -48,7 +48,7 @@ section {
 
 .section-title {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
   border-bottom: 1px solid #272b2e;
 }
 
@@ -74,6 +74,10 @@ img-avatar {
 }
 
 .job {
+  position: relative;
+  top: 10px;
+  left: 40px;
+  right: 40px;
   padding-bottom: 24px;
   margin-bottom: 24px;
   border-bottom: 1px solid #272b2e;
