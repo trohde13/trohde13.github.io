@@ -2,7 +2,7 @@
 body {
   font-family: 'Georgia', serif;
   line-height: 1.5;
-  background: #f2f2f2
+  background: #bcd3e0
   color: #272b2e;
 }
 
@@ -33,10 +33,10 @@ a {
   margin: 2rem auto;
   display: grid;
   grid-template-areas: "header header header"
-                       "left, main, main"
+                       "left, main, right"
                        "footer, footer, footer";
   grid-template-rows: 1fr 3fr 1fr;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 2fr 1fr;
   padding: 32px;
 }
 
@@ -60,12 +60,12 @@ a {
 }
 
 .cell-4{
-  background: #bcd3eo;
+  background: ##f716e1;
   grid-area: left;
 }
 
 .cell-5 {
-  background: #bcd3e0
+  background: #164ff7;
   grid-area: main;
   display: grid;
   grid-template-columns: 3fr;
@@ -73,17 +73,13 @@ a {
   grid-column-gap: 1rem;
 }
 
-.cell-5 .cell {
-  background-color: #bcd3e0;
-}
-
 .cell-6{
-  background-color: #bcd3eo;
+  background-color: #16f75a;
   grid-area: right;
 }
 
 .cell-7{
-  background-color: #bcd3eo;
+  background-color: #f73116;
   grid-area: footer;
 }
 
