@@ -8,18 +8,15 @@ body {
 
 p{
   color: #272b2e;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  width: 75%
+  border: 1px
 }
 
 img {
   max-width: 100%;
-}
-
-.icon {
-  fill: current color;
-  display: inline-block;
-  font-size: inherit;
-  height: 1em
-  overflow: visible;
 }
 
 a {
@@ -53,10 +50,12 @@ a {
 
 .cell-2{
   background-color: #bcd3e0;
+  align-items: left;
 }
 
 .cell-3{
   background-color: #bcd3e0;
+  align-items: right;
 }
 
 .cell-4{
@@ -67,6 +66,7 @@ a {
 .cell-5 {
   background: #164ff7;
   grid-area: main;
+  align-items: left;
 }
 
 .cell-6{
