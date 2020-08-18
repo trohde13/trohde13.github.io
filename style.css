@@ -86,11 +86,8 @@ a {
 }
 
 .section {
-  display: grid;
-  grid-template-columns: 1fr 4fr
-  grid-gap: 20px
   padding: 32px
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid #272b2e;
 }
 
 .section-title {
@@ -126,7 +123,7 @@ img.avatar {
 .job {
   padding-bottom: 24px
   margin-bottom: 24px
-  border-bottom: 1px solid lightgrey
+  border-bottom: 1px solid #272b2e;
 }
 
 .job-title-container {
@@ -139,6 +136,7 @@ img.avatar {
 .job-company {
   font-weight: bold;
   line-height: 1.2;
+  border-bottom: 1px solid #272b2e;
 }
 
 .reference-container {
@@ -146,6 +144,7 @@ img.avatar {
   justify-content: space-between;
   margin-bottom: 20px;
   font-size: 14px;
+  border-bottom: 1px solid #272b2e;
 }
 
 .reference-name {
