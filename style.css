@@ -1,9 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-*, *: before, *: after {
-  box-sizing: inherit;
-}
 
 body {
   font-family: 'Georgia', serif;
@@ -57,7 +51,20 @@ a {
   background-color: #bcd3e0;
 }
 
-.cell-4 {
+.cell-2{
+  background-color: #bcd3e0;
+}
+
+.cell-3{
+  background-color: #bcd3e0;
+}
+
+.cell-4{
+  background: #bcd3eo;
+  grid-area: left;
+}
+
+.cell-5 {
   background: #bcd3e0
   grid-area: main;
   display: grid;
@@ -66,12 +73,17 @@ a {
   grid-column-gap: 1rem;
 }
 
-.cell-4 .cell {
-  background-color: #bcd3e0
+.cell-5 .cell {
+  background-color: #bcd3e0;
 }
 
-.cell-8 {
-  background: #bcd3e0;
+.cell-6{
+  background-color: #bcd3eo;
+  grid-area: right;
+}
+
+.cell-7{
+  background-color: #bcd3eo;
   grid-area: footer;
 }
 
