@@ -1,6 +1,6 @@
 
 body {
-  font-family: 'Georgia', serif;
+  font-family: 'Courier New', , 'Courier', monospace;
   line-height: 1.5;
   background: #bcd3e0
   color: #272b2e;
@@ -25,45 +25,28 @@ a {
 }
 
 .container {
-  height: 100vh;
-  width: 100vw;
-  margin: 2rem auto;
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 32px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1)
+}
+
+section {
   display: grid;
-  grid-template-areas: "header header header"
-                       "left main right"
-                       "footer footer footer"
-  grid-template-rows: 1fr 3fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+  padding: 24px 0;
+  border-bottom: 1px solid #272b2e
 }
 
-.cell-1 {
-  background: deepskyblue;
-  grid-area: header;
+img-avatar {
+  width: 140px;
 }
 
-.cell-2 {
-  background: orangered;
-  grid-area: left;
+.my-name {
+  font-size: 48px;
+  line-height: 1;
 }
 
-.cell-3 {
-  background: limegreen;
-  grid-area: main;
-}
 
-.cell-4 {
-  background: gold;
-  grid-area: right;
-}
-
-.cell-5 {
-  background: blueviolet;
-  grid-area: footer;
-}
-
-.cell {
-  color: white;
-  font-size: 2.5rem;
-  text-align: center;
-  padding: 4rem;
-}
