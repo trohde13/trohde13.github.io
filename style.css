@@ -11,7 +11,7 @@ p{
   word-break: break-all;
   word-wrap: break-word;
   white-space: pre-wrap;
-  width: 75%
+  width: 50%
   border: 1px
 }
 
@@ -81,7 +81,13 @@ a {
 }
 
 .cell-7 .cell {
-  background: #bcd3e0;
+  background-color: #bcd3e0;
+  color: #272b2e;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  width: 50%
+  border: 1px
 }
 
 .cell {
