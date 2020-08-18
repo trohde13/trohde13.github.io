@@ -20,7 +20,7 @@ img {
 }
 
 a {
-  color: #272b2e
+  color: #272b2e;
   text-decoration: none;
 }
 
@@ -29,7 +29,7 @@ a {
   width: 90vw;
   margin: 2rem auto;
   display: grid;
-  grid-template-areas: "header header header"
+  grid-template-areas: "header, header, header"
                        "left, main, right"
                        "footer, footer, footer";
   grid-template-rows: 1fr 3fr 1fr;
@@ -41,15 +41,16 @@ a {
   background: #bcd3e0;
   grid-area: header;
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 2fr 2fr;
   grid-column-gap: 1rem;
 }
+
 .cell-1 .cell {
-  background-color: #bcd3e0;
+  background: #bcd3e0;
 }
 
 .cell-2{
-  background-color: #bcd3e0;
+  background: #bcd3e0;
   align-items: left;
 }
 
@@ -59,7 +60,7 @@ a {
 }
 
 .cell-4{
-  background: ##f716e1;
+  background: #f716e1;
   grid-area: left;
 }
 
@@ -70,13 +71,17 @@ a {
 }
 
 .cell-6{
-  background-color: #16f75a;
+  background: #16f75a;
   grid-area: right;
 }
 
 .cell-7{
-  background-color: #f73116;
+  background: #f73116;
   grid-area: footer;
+}
+
+.cell-7 .cell {
+  background: #bcd3e0;
 }
 
 .cell {
@@ -93,6 +98,7 @@ a {
 .section-title {
   font-weight: bold;
   font-size: 18px;
+  align-items: center;
 }
 
 img.avatar {
