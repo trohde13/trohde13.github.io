@@ -38,7 +38,7 @@ section {
   grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
   padding: 24px 0;
-  border-bottom: 1px solid #272b2e;
+  border-bottom: 2px solid #272b2e;
 }
 
 img-avatar {
