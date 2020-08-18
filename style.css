@@ -67,10 +67,6 @@ a {
 .cell-5 {
   background: #164ff7;
   grid-area: main;
-  display: grid;
-  grid-template-columns: 3fr;
-  grid-template-rows: 3fr;
-  grid-column-gap: 1rem;
 }
 
 .cell-6{
