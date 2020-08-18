@@ -29,138 +29,41 @@ a {
   width: 90vw;
   margin: 2rem auto;
   display: grid;
-  grid-template-areas: "header, header, header"
-                       "left, main, right"
-                       "footer, footer, footer";
+  grid-template-areas: "header header header"
+                       "left main right"
+                       "footer footer footer"
   grid-template-rows: 1fr 3fr 1fr;
-  grid-template-columns: 1fr 2fr 1fr;
-  padding: 32px;
+  grid-template-rows: 1fr 2fr 1fr;
 }
 
 .cell-1 {
-  background: #bcd3e0;
+  background: deepskyblue;
   grid-area: header;
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-column-gap: 1rem;
 }
 
-.cell-1 .cell {
-  background: #bcd3e0;
-}
-
-.cell-2{
-  background: #bcd3e0;
-  align-items: left;
-}
-
-.cell-3{
-  background-color: #bcd3e0;
-  align-items: right;
-}
-
-.cell-4{
-  background: #f716e1;
+.cell-2 {
+  background: orangered;
   grid-area: left;
 }
 
-.cell-5 {
-  background: #164ff7;
+.cell-3 {
+  background: limegreen;
   grid-area: main;
-  align-items: left;
 }
 
-.cell-6{
-  background: #16f75a;
+.cell-4 {
+  background: gold;
   grid-area: right;
 }
 
-.cell-7{
-  background: #f73116;
+.cell-5 {
+  background: blueviolet;
   grid-area: footer;
 }
 
-.cell-7 .cell {
-  background-color: #bcd3e0;
-  color: #272b2e;
-  word-break: break-all;
-  word-wrap: break-word;
-  white-space: pre-wrap;
-  width: 50%
-  border: 1px
-}
-
 .cell {
-  color: #272b2e;
+  color: white;
+  font-size: 2.5rem;
   text-align: center;
   padding: 4rem;
 }
-
-.section {
-  padding: 32px
-  border-bottom: 1px solid #272b2e;
-}
-
-.section-title {
-  font-weight: bold;
-  font-size: 18px;
-  align-items: center;
-}
-
-img.avatar {
-  width: 200px;
-}
-
-.my-name {
-  font-size: 62px;
-  line-height: 1;
-}
-
-.link {
-  display: flex;
-  margin: 10px 0 20px 0;
-}
-
-.link-item {
-  color: #f2f2f2
-  display: flex;
-  align-items: center;
-  flex: 1
-}
-
-.link-item svg {
-  margin-right: 6px;
-}
-
-.job {
-  padding-bottom: 24px
-  margin-bottom: 24px
-  border-bottom: 1px solid #272b2e;
-}
-
-.job-title-container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  font-size: 18px;
-}
-
-.job-company {
-  font-weight: bold;
-  line-height: 1.2;
-  border-bottom: 1px solid #272b2e;
-}
-
-.reference-container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  font-size: 14px;
-  border-bottom: 1px solid #272b2e;
-}
-
-.reference-name {
-  font-weight: bold;
-  line-height: 1.2;
-}
-
