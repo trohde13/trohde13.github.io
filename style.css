@@ -38,7 +38,7 @@ section {
   grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
   padding: 24px 0;
-  border-bottom: 1px solid #272b2e
+  border-bottom: 1px solid #272b2e;
 }
 
 img-avatar {
@@ -61,3 +61,22 @@ img-avatar {
   align-items: center;
   flex: 1;
 }
+
+.job {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #272b2e;
+}
+
+.job-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.job-company {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
