@@ -46,9 +46,18 @@ img-avatar {
 }
 
 .my-name {
-  font-size: 24px;
+  font-size: 48px;
   line-height: 1;
   align-text: right;
 }
 
+.link {
+  display: flex;
+  margin: 10px 0 20px 0;
+}
 
+.link-item {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
