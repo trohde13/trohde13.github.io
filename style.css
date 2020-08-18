@@ -1,6 +1,6 @@
 
 body {
-  font-family: 'Courier New', , 'Courier', monospace;
+  font-family: 'Georgia', serif;
   line-height: 1.5;
   background: #bcd3e0
   color: #272b2e;
@@ -35,7 +35,7 @@ a {
 
 section {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
   padding: 24px 0;
   border-bottom: 1px solid #272b2e
