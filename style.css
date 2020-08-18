@@ -7,13 +7,17 @@ body {
 }
 
 p{
-  color: #272b2e;
   word-break: break-all;
   word-wrap: break-word;
   white-space: pre-wrap;
   width: 50%
   border: 1px
   align-items: right;
+}
+
+p {
+  font-size: 14px;
+  color: #232b2e;
 }
 
 img {
@@ -76,7 +80,12 @@ img-avatar {
 }
 
 .job-company {
+  font-size: 18px;
   font-weight: bold;
   line-height: 1.2;
 }
 
+.job-title {
+  font-size: 18px;
+  line-height: 1.2;
+}
