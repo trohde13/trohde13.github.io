@@ -80,23 +80,23 @@ img-avatar {
   right: 40px;
   padding-bottom: 24px;
   margin-bottom: 24px;
-  border-bottom: 1px solid #272b2e;
+  
 }
 
 .job-title-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .job-company {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 1.2;
 }
 
 .job-title {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.2;
 }
